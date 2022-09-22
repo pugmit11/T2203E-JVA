@@ -1,4 +1,4 @@
-package assignment2;
+package TKnganHang;
 
 import java.util.Scanner;
 
