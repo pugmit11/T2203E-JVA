@@ -29,7 +29,7 @@ public class Main {
         Student[] students = new  Student[10];
         Car c1 = new Car();
         c1.brand = "Honda";
-        students[0] = new Student("Ha Hoang Hung", "012345678", "8 Ton That Thuyet", 18, c1);
+        students[0] = new Student("Ha Hoang Hung", "012345678", "8 Ton That Thuyet", 18);
 
         for(int i=0; i<students.length; i++){
             students[i] = new Student();
