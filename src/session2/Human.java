@@ -1,11 +1,11 @@
 package session2;
 
-public class Hunman {
+public class Human {
     String name;
-    public Hunman(){
+    public Human(){
 
     }
-    public Hunman(String name){
+    public Human(String name){
         this.name = name;
     }
 

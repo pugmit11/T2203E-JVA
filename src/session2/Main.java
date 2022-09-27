@@ -2,19 +2,17 @@ package session2;
 
 import session1.Car;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args){
         Car c = new Car();
         // c.brand = "Honda";
-        Hunman h = new Hunman();
+        Human h = new Human();
         h.run(5);
         h.run("Cho Duoi");
         h.run(10,"Cho Duoi");
         h.run("Cho Duoi",10);
 
-        Hunman h2 = new Hunman("Nguyen Tuan Anh");
+        Human h2 = new Human("Nguyen Tuan Anh");
         System.out.println(h2.name);
 
         Student s = new Student("Nguyen Van An", "0981998873", "so 8 Ton That Thuye", 18);
