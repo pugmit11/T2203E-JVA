@@ -3,7 +3,7 @@ package session5;
 import session4.Human;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int x = 10;
         StudentInterface s = new StudentInterface() {
             @Override
@@ -53,7 +53,7 @@ public class Main {
             }
         };
         // lambda expression
-        FptStudentInterface fs = (y)->{
+        FptStudentInterface fs = (y) -> {
             // body of coding function
         };
     }
